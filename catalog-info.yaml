@@ -25,7 +25,7 @@ spec:
   owner: guests
   lifecycle: experimental
   type: agent
-  system: "mmagent02"
+  system: "AgentCore"
   providesApis: ['api:mmagent02']
 ---
 apiVersion: backstage.io/v1alpha1
