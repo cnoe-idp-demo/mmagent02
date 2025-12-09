@@ -57,7 +57,7 @@ class InvocationResponse(BaseModel):
 
 # System Prompt
 system_prompt = """
-You are a helpful and smart assistant to answer user queries related to technology and tools.
+You are a helpful and smart assistant to answer user queries related to technology and tools..
 """
 
 @app.post("/invocations", response_model=InvocationResponse)
